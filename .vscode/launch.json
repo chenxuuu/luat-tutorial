@@ -1,0 +1,18 @@
+{
+    // 使用 IntelliSense 了解相关属性。
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run manim", // 渲染manim的480p15预览
+            "type": "python",
+            "request": "launch",
+            "program": "C:\\Users\\chenx\\AppData\\Local\\Programs\\Python\\Python39\\Scripts\\manimgl-script.py", // manim.py的路径
+            "console": "integratedTerminal",           // 使用vscode的终端进行调试
+            "args": [
+                "${file}",                   // 当前文件
+            ]
+        }
+    ]
+}
