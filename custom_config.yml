@@ -27,7 +27,7 @@ tex:
   # intermediate_filetype: "xdv"
 universal_import_line: "from manimlib import *"
 style:
-  font: "Source Han Sans CN"
+  font: "Source Han Sans Medium"
   background_color: "#333333"
 # Set the position of preview window, you can use directions, e.g. UL/DR/OL/OO/...
 # also, you can also specify the position(pixel) of the upper left corner of
@@ -54,4 +54,4 @@ camera_qualities:
   ultra_high:
     resolution: "3840x2160"
     frame_rate: 60
-  default_quality: "high"
+  default_quality: "ultra_high"
