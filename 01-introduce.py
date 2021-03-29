@@ -133,7 +133,7 @@ def why(self):
             "print":BLUE,"range":BLUE,
             "=":TEAL_B,"+":TEAL_B,"(":MAROON,")":MAROON,
         })
-    gl = VGroup(Text("LuaOS",size=0.3),codeLua).arrange(DOWN)
+    gl = VGroup(Text("LuatOS",size=0.3),codeLua).arrange(DOWN)
     gp = VGroup(Text("另一种语言",size=0.3),codePy).arrange(DOWN)
     gc = VGroup(gl,gp).arrange(RIGHT,buff=1).to_corner(LEFT+DOWN).shift(np.array([0,1,0]))
     self.play(Write(gc))
