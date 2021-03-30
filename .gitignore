@@ -2,3 +2,4 @@ __pycache__/
 manimgl.egg-info/
 manimlib/
 videos/
+ffmpegTMP/
